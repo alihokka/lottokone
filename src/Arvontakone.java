@@ -19,7 +19,7 @@ public class Arvontakone {
         }
     }
 
-    public void pickNumbers() {
+    public void nostaSeitsemanNumeroa() {
         int i = 1;
         while (i <= 7) {                    //otetaan 7 numeroa "pallokoneesta"
             Collections.shuffle(numerot);

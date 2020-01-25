@@ -23,7 +23,7 @@ public class Kayttoliittyma {
 
         while (i <= maara) {                                            //suoritetaan arvonta käyttäjän määrittämän arvon verran
             arvontakone.lisaaNumerot();
-            arvontakone.pickNumbers();
+            arvontakone.nostaSeitsemanNumeroa();
             System.out.println(i + "  ||  " + arvontakone.printArvotut()); //tulostus käyttäjälle
             arvontakone.reset();
             i++;
